@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    feedPublish: '$(System.TeamProject)/Tailspin.SpaceGame.Web.Models'
+    feedPublish: '$(System.TeamProject)/saksham-gupta-test-feed'
     allowPackageConflicts: true
   condition: succeeded()
